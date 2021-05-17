@@ -1,0 +1,4 @@
+streamlit
+fbprophet
+yfinance
+plotly
