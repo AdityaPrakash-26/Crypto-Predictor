@@ -13,7 +13,7 @@ TODAY = date.today().strftime("%Y-%m-%d")
 
 st.title('Crypto Price Predictor')
 
-cryptos = ('BTC-USD', 'ETH-USD', 'BNB-USD', 'DOGE-USD')
+cryptos = ('BTC-USD', 'ETH-USD', 'BNB-USD', 'DOGE-USD', 'BNB-USD')
 selected_crypto = st.selectbox('Select dataset for prediction', cryptos)
 
 n_years = st.slider('Years of prediction:', 1, 4)
